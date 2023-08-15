@@ -38,8 +38,8 @@ int main()
 {
     FASTIO
 #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    freopen("others/input.txt", "r", stdin);
+    freopen("others/output.txt", "w", stdout);
 #endif
     int T = 1;
     for (int i = 1; i <= T; i++)
