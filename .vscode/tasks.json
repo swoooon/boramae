@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Project Label",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"${file}",
+				"<input.txt", 
+				">output.txt"
+
+			],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"options": {
+				"env": {
+					"PYTHONIOENCODING": "UTF-8"
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+  }
