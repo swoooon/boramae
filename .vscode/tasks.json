@@ -7,8 +7,8 @@
 			"command": "python",
 			"args": [
 				"${file}",
-				"<input.txt", 
-				">output.txt"
+				"<others/input.txt", 
+				">others/output.txt"
 
 			],
 			"presentation": {
